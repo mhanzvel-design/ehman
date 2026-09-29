@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ehman Velasco – DevOps Engineer</title>
+<meta name="description" content="Ehman Velasco is a DevOps Engineer in Davao City working with Azure, AWS, GitHub Actions, Terraform, and Docker.">
+<style>
+  :root { --paper:#f6f7f9; --card:#ffffff; --ink:#14213d; --muted:#586174; --line:#d5dbe4; --accent:#2457d6; --ok:#1f9d6b; }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  a { color:var(--accent); }
+  a:focus-visible, .btn:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+  .wrap { max-width:860px; margin:0 auto; padding:0 24px; }
+  h1, h2, h3 { font-family:Georgia, "Times New Roman", serif; line-height:1.15; margin:0; }
+  header.hero { padding:72px 0 48px; border-bottom:1px solid var(--line); }
+  h1 { font-size:clamp(2.6rem, 8vw, 4.2rem); letter-spacing:-.02em; }
+  .role { margin:14px 0 0; font-size:1.2rem; color:var(--accent); font-weight:600; }
+  .intro { max-width:60ch; margin:20px 0 28px; color:var(--muted); }
+  .actions { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:11px 20px; border-radius:6px; text-decoration:none; font-weight:600; border:2px solid var(--accent); }
+  .btn.primary { background:var(--accent); color:#fff; }
+  .btn.ghost { color:var(--accent); }
+  section { padding:52px 0 0; }
+  h2 { font-size:1.7rem; margin-bottom:22px; }
+  /* pipeline */
+  .pipeline { list-style:none; margin:0; padding:0 0 0 34px; position:relative; }
+  .pipeline::before { content:""; position:absolute; left:9px; top:8px; bottom:8px; width:2px; background:var(--line); }
+  .stage { position:relative; background:var(--card); border:1px solid var(--line); border-radius:8px; padding:20px 22px; margin-bottom:18px; }
+  .stage::before { content:""; position:absolute; left:-33px; top:24px; width:16px; height:16px; border-radius:50%; background:var(--ok); border:3px solid var(--paper); }
+  .stage.running::before { background:var(--accent); box-shadow:0 0 0 3px rgba(36,87,214,.25); }
+  .status { font:600 .78rem ui-monospace, "SF Mono", Consolas, monospace; color:var(--ok); }
+  .running .status { color:var(--accent); }
+  .stage h3 { font-size:1.25rem; margin:4px 0 2px; }
+  .meta { color:var(--muted); font-size:.95rem; margin:0 0 10px; }
+  .stage ul { margin:0; padding-left:1.15rem; }
+  .stage li { margin-bottom:4px; }
+  .sub { margin:14px 0 4px; font-weight:600; font-size:1rem; }
+  /* skills */
+  .skills { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:14px; }
+  .skill { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
+  .skill h3 { font-size:1rem; margin-bottom:6px; font-family:system-ui, sans-serif; }
+  .skill p { margin:0; color:var(--muted); font-size:.97rem; }
+  footer { margin-top:64px; padding:32px 0 56px; border-top:1px solid var(--line); color:var(--muted); }
+  footer p { margin:0 0 6px; }
+  @media (max-width:520px) { body { font-size:16px; } header.hero { padding-top:48px; } }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Ehman Velasco</h1>
+    <p class="role">DevOps Engineer | Azure, GitHub Actions, Terraform | AI-Assisted Automation</p>
+    <p class="intro">I build CI/CD pipelines and cloud infrastructure on Azure and AWS. I took part in an end-to-end migration from AWS to Azure, and before DevOps I spent several years leading IT teams and delivering projects in Davao City.</p>
+    <div class="actions">
+      <a class="btn primary" href="Ehman-Velasco-Resume.pdf">Download resume (PDF)</a>
+      <a class="btn ghost" href="mailto:mhanzvel@gmail.com">Email me</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="pipeline">
+      <li class="stage running">
+        <span class="status">RUNNING</span>
+        <h3>DevOps Engineer · Crescendo</h3>
+        <p class="meta">Apr 2025 – Present</p>
+        <ul>
+          <li>Took part in the migration from AWS to Microsoft Azure, including infrastructure redesign, pipeline updates, and cloud resource optimization.</li>
+          <li>Designed CI/CD pipelines in GitHub Actions that automate build, test, and deployment.</li>
+          <li>Provisioned infrastructure as code and deployed automatically from GitHub repositories.</li>
+        </ul>
+      </li>
+      <li class="stage">
+        <span class="status">PASSED</span>
+        <h3>DevOps Engineer · Jairosoft Inc</h3>
+        <p class="meta">Dec 2021 – Apr 2025</p>
+        <ul>
+          <li>Built and maintained multiple CI/CD pipelines in Azure DevOps.</li>
+          <li>Defined release processes across development, staging, and production.</li>
+          <li>Automated infrastructure provisioning with Terraform and set up monitoring with Prometheus and Grafana.</li>
+        </ul>
+        <p class="sub">Project Coordinator / Scrum Master · Oct 2021 – Dec 2022</p>
+        <ul><li>Led a team of developers through sprint planning and backlog grooming.</li></ul>
+      </li>
+      <li class="stage">
+        <span class="status">PASSED</span>
+        <h3>ICT Section Head and more · PWC of Davao</h3>
+        <p class="meta">Sep 2015 – Apr 2023</p>
+        <ul>
+          <li>ICT Section Head (2017–2023): led IT professionals, in-house development, IT policies, and project delivery.</li>
+          <li>NetSuite Implementation Project Coordinator (2019–2023): coordinated the move to NetSuite and gave local IT support.</li>
+          <li>Full-Time IT Instructor (2015–2017).</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill"><h3>Cloud</h3><p>Microsoft Azure, AWS</p></div>
+      <div class="skill"><h3>CI/CD</h3><p>GitHub Actions, Azure Pipelines, Azure Repos, Azure Boards, Git</p></div>
+      <div class="skill"><h3>Infrastructure as Code</h3><p>Terraform, Docker</p></div>
+      <div class="skill"><h3>Monitoring</h3><p>Prometheus, Grafana</p></div>
+      <div class="skill"><h3>Scripting and databases</h3><p>PowerShell, Bash, PostgreSQL, MSSQL, MySQL</p></div>
+      <div class="skill"><h3>Ways of working</h3><p>Agile, Scrum, release management, AI assistants for scripting and documentation</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Get in touch</strong></p>
+    <p><a href="mailto:mhanzvel@gmail.com">mhanzvel@gmail.com</a> · Davao City, Philippines</p>
+  </div>
+</footer>
+</body>
+</html>
